@@ -1,0 +1,13 @@
+Observação
+
+Este robô é um Reframework de base que utiliza como padrões para fila apenas listas de E-mails. Desta forma criamos um processamento para cada mensagem encontrada na caixa de email. Seus logs ficar armazenados durante o tempo de execução, diferentemente dos Reframeworks que utilizam as filas de Orchestrator. 
+
+Para o funcionamento correto e necessária a configuração do Asset do Orchestrtor para armazenar o Login e senha da caixa de email. Configurados apenas para uso com caixas Google Gmail, para demais hosts é necessária a configuração da atividade responsável pela captura de E-mail.
+
+=====================================================================================================
+Note: 
+
+This robot is a Re framework with a list of E-mail base. For each mail message is possible create a new processing. The logs are stored during execution because isn't necessary the use of Orchestrator queue.
+
+For operation correctly is necessary the Orchestrator asset config, with a user and password of mail box. This rotine is config only a Gmail boxes, but is possible configurated  for any one provider mail just changing the activity capture for messages.
+
